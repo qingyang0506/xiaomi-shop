@@ -161,6 +161,7 @@
     top:140px;
     left:0;
     transition: height 0.4s;
+    z-index: 9999;
 }
 
 .nav .show-good:hover~.hidden,.hidden:hover{
@@ -174,6 +175,7 @@
     margin-top:25px;
     width: 296px;
     height: 48px;
+    margin-right:-20px;
 }
 
 .search .search-inp{
@@ -209,6 +211,128 @@
     background-color: #ff6701;
     color:#fff;
 }
+
+.banner{
+    height: 460px;
+    
+}
+
+.container{
+    height: 100%;
+}
+
+.banner .left-side{
+    height: 100%;
+    width: 233px;
+    background-color: #56585A;
+    float:left;
+    position: relative;
+    z-index: 999;
+}
+
+.banner .right-side{
+    height: 100%;
+    width:991px;
+    float:left;
+}
+
+
+.left-side .list a{
+    display: block;
+    height: 42px;
+    line-height: 42px;
+    font-size:14px;
+    color:#fff;
+    font-weight: 500;
+    padding: 0 30px;
+}
+
+.list{
+    margin: 20px 0;
+}
+
+.list a:hover{
+    background-color: #FF6701;
+}
+
+
+.list li i{
+    float:right;
+    line-height: 42px;
+}
+
+.right-side{
+    position: relative;
+}
+
+.right-side img{
+    height:100%;
+    margin-left:-235px;
+}
+.pointer{
+    position:absolute;
+    top:430px;
+    left:880px;
+}
+
+.pointer a{
+    float:left;
+    width: 6px;
+    height: 6px;
+    background-color: #808586;
+    border-radius: 50%;
+    margin-right:8px;
+    border:2px solid #B4B6B7;
+}
+
+.pointer .first-point{
+    background: #E6EBEC;
+    border-color: #8B8D8E;
+}
+
+.pointer a:hover{
+    background: #E6EBEC;
+    border-color: #8B8D8E;
+}
+
+.pre-next{
+    position: absolute;
+    width:100%;
+    height: 69px;
+    left:0;
+    top:200px;
+    z-index:999;
+}
+
+.pre-next .pre{
+    float:left;
+    width:41px;
+    height: 100%;
+    background-color: #D4DDE0;
+    background-image: url(../img/icon-slides.png);
+    background-position: 82px 0;
+    
+}
+.pre-next .next{
+    float:right;
+    width:41px;
+    height: 100%;
+    background-color: #D4dde0;
+    background-image: url(../img/icon-slides.png);
+    background-position: 41px 0;
+}
+
+.pre-next .pre:hover{
+    background-position: 0 0 ;
+}
+
+.pre-next .next:hover{
+    background-position: -41px 0;
+}
+
+
+
+
 
 
 
