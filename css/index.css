@@ -1,3 +1,7 @@
+body{
+    height: 2000px;
+}
+
 .top-wapper{
     width:100%;
     height:40px;
@@ -330,6 +334,117 @@
     background-position: -41px 0;
 }
 
+.back-top{
+    position:fixed;
+    width:26px;
+    height: 206px;
+    background-color: orange;
+    
+    right:50%;
+    margin-right: -637px;
+    bottom:60px;
+    
+}
+
+
+.ad{
+    height:169px;
+    margin-top:14px;
+}
+
+.ad .shortcut{
+    height: 168px;
+    width:228px;
+    background-color: #5F5750;
+    padding-top:2px;
+    padding-left:6px;
+    margin-right: 14px;
+}
+
+.ad .shortcut,
+.ad .ad-pic,
+.ad .shortcut li
+{
+    float:left;
+}
+
+.ad .shortcut li{
+    position:relative;
+}
+
+.ad .shortcut a{
+    display: block;
+    width: 75px;
+    height: 85px;
+    font-size: 12px;
+    color: #CECCCA;
+    text-align: center;
+    overflow: hidden;
+}
+
+.ad .shortcut a:hover{
+    color:#fff;
+}
+
+.ad .shortcut a i{
+    display: block;
+    font-size: 20px;
+    margin-top:20px;
+    margin-bottom:6px;
+}
+
+.ad .shortcut li::before{
+    content:'';
+    position: absolute;
+    height: 1px;
+    width: 66px;
+    background-color: #665E57;
+    left:5px;
+    top:0;
+    
+}
+
+.ad .shortcut li::after{
+    content:'';
+    position:absolute;
+    width: 1px;
+    height: 75px;
+    background-color: #665e57;
+    left:0px;
+    top:3px;
+}
+
+.ad-pic{
+    height:162px;
+    width:978px;
+}
+
+
+
+.ad-pic li{
+    float: left;
+    margin-right: 14px;
+    height:100%;
+    width: 316px;
+}
+
+.ad-pic li:last-child{
+      margin:0;
+}
+
+.ad-pic img{
+    width:100%;
+    vertical-align: top;
+}
+
+.mid-part{
+    height:75px;
+    margin-top:34px;
+}
+
+.mid-part img{
+    width: 100%;
+}
 
 
 
