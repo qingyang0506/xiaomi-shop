@@ -1,5 +1,5 @@
 body{
-    height: 2000px;
+    height: 3430px;
     background-color: #F5F5F5;
 }
 
@@ -339,12 +339,34 @@ body{
     position:fixed;
     width:26px;
     height: 206px;
-    background-color: orange;
+    background-color: #fff;
     
     right:50%;
     margin-right: -637px;
     bottom:60px;
     
+}
+
+.back-top div{
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+}
+
+.back-top .line{
+    height: 1px;
+    width: 100%;
+    background-color: #e0e0e0;
+}
+
+.back-top div a{
+    font-size: 16px;
+    color:#9B9B9B;
+}
+
+.back-top div a:hover{
+    color: #ff6700;
 }
 
 
@@ -655,7 +677,148 @@ body{
      width:100%;
 }
 
+.footer-wrapper{
+    width:100%;
+    height: 325px;
+    background-color: #fff;
+    margin-top:30px;
+}
 
+.footer{
+    height: 100%;
+    /* background-color: #bfa; */
+}
+
+.top-view{
+    position: relative;
+    padding:30px 40px;
+    margin-bottom: 50px;
+}
+
+.top-view li{
+    float:left;
+    height: 100%;
+    width:195px;
+    text-align: center;
+}
+
+.top-view .line{
+    width:1px;
+    height: 25px;
+    background-color: #E0E0E0;
+    margin:0 20px;
+}
+
+.top-view a{
+    font-size: 16px;
+    color:#616161;
+}
+
+.top-view a i{
+    font-size:20px;
+}
+
+.top-view a:hover{
+    color:#FF752A;
+}
+
+.top-view::before{
+    content:'';
+    position:absolute;
+    height: 1px;
+    width:1226px;
+    background-color: #e0e0e0;
+    left:0;
+    top:85px;
+}
+
+.middle{
+    float:left;
+}
+
+.middle dl{
+    float:left;
+    margin-right: 40px;
+    width:120px;
+}
+
+.middle dt{
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+.middle dd a{
+    font-size: 12px;
+    color:#757575;
+}
+
+.middle dd{
+    margin-bottom: 10px;;
+}
+
+.middle dd a:hover{
+   color:#FF752A;
+}
+
+.right-menu{
+    float:right;
+    width:250px;
+    height: 250px;
+    position:relative;
+}
+
+.right-menu::before{
+    content:'';
+    position:absolute;
+    width: 1px;
+    height: 110px;
+    background-color: #E0E0E0;
+    left:-10px;
+    top:20px;
+}
+
+
+
+.right-menu .content{
+     margin-left:40px;
+     margin-top:10px;
+}
+
+
+.right-menu .content .id{
+    font-size: 22px;
+    color:#FF6700;
+}
+
+.right-menu .content .time{
+   font-size: 12px;
+   color:#616161;
+}
+
+.right-menu .content .ren a{
+    display: block;
+    height: 30px;
+    width: 120px;
+    margin:7px 10px;
+    border:1px solid #ff6700;
+    text-align: center;
+    line-height: 30px;
+    font-size: 12px;
+    color: #ff6700;
+}
+
+.content li:last-child{
+    font-size: 12px;
+    margin-left: 10px;
+}
+
+.content li:last-child i{
+    font-size: 22px;
+}
+
+.content li a:hover{
+    color:#ff6700;
+}
 
 
 
