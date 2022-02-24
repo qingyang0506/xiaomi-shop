@@ -517,6 +517,7 @@ body{
     margin-right:13px;
     margin-bottom: 15px;
     background-color: #fff;
+    transition: transform 0.3s;
     
 }
 
@@ -536,6 +537,7 @@ body{
 
 .phone .label li:hover{
     box-shadow: 0 5px 100px rgba(0, 0, 0, 0.1);
+    transform: translateY(-5px);
 }
 
 .label li .pic{
@@ -625,7 +627,7 @@ body{
     margin-right:14px;
     margin-bottom: 15px;
     background-color: #fff;
-    
+    transition:transform 0.3s;
 }
 
 .furniture .label li:nth-of-type(5n+5){
@@ -634,6 +636,7 @@ body{
 
 .furniture .label li:hover{
     box-shadow: 0 5px 100px rgba(0, 0, 0, 0.1);
+    transform:translateY(-5px);
 }
 
 .furniture .label li .pic{
